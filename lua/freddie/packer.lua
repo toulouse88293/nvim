@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
 
     use({
         "folke/trouble.nvim",
+        pt = true,
         config = function()
             require("trouble").setup {
                 icons = false,
